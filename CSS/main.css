@@ -1,0 +1,124 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Impact', sans-serif;
+	}
+
+/*Navigation bar*/
+.nav {
+	padding:30px;
+	margin: 0px;
+	margin-bottom: 0px;
+	background-color:#191a1e;
+	color:white;
+	position:fixed;
+	width:100%;
+	z-index: 1;
+}
+
+.nav a {
+	text-decoration: none;
+	color:white;
+	border: 2px solid white;
+	padding: 10px;
+}
+
+.nav a:hover {
+	color:black;
+	background-color:white;
+	text-decoration: none;
+}
+
+.nav li {
+	list-style-type: none;
+	display: inline; 
+	padding:10px;
+}
+
+.nav .selected {
+	background-color: white;
+	color:black;
+}
+
+/*Header*/
+.header{
+	height:550px;
+	margin-top:0px;
+	background-image:url("../img/leafs.jpeg");
+	background-size: cover; 
+	background-position: center;
+
+}
+
+.header h1 {
+	text-align:center;
+	color:white;
+	font-family:'Impact', 'Arial Black', sans-serif;
+	margin-top:0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-left: 140px;
+	padding-right:140px;
+	padding-top:200px;
+	line-height: 150%;
+}
+
+span {
+	padding:10px;
+	background:#191a1e;
+	margin: 0 auto;
+}
+
+/*Main*/
+.main {
+	margin:0px;
+	z-index: -1;
+}
+
+.main h3 {
+	text-align: center;
+	padding:30px;
+	font-family: 'Impact';
+}
+
+.main img {
+	max-width: 400px;
+	z-index: -1;
+	margin-bottom: 50px;
+}
+
+/*Footer*/
+
+.footer {
+	height:50px;
+	background-color:black;
+
+}
+a {
+	text-decoration:none;
+	color:white;
+}
+.footer ul{
+	padding-top: 20px;
+	margin:0px;
+}
+.footer li {
+	display:inline;
+	margin:20px;
+	text-decoration:none;
+	color:white;
+	font-family: courier;
+
+}
+
+@media (max-width: 900px) {
+  .row {
+    margin-top: 0;
+    margin-left: 50%;
+    margin: 0 auto ;
+  }
+  .img-responsive {
+    margin-bottom: 20px;
+    margin: 0 auto ;
+  }
+}
