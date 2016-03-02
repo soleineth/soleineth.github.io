@@ -44,6 +44,7 @@ html, body {
 /*Main*/
 .main {
 	margin:0px;
+	margin-bottom: 0px;
 	padding:100px;
 	padding-top: 100px;
 }
@@ -54,6 +55,8 @@ html, body {
 	padding-bottom: 0px;
 	font-family: 'helvetica';
 	font-weight: lighter;
+	line-height: 2.0;
+
 }
 
 /*Footer*/
