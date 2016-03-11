@@ -45,9 +45,8 @@ html, body {
 .main {
 	margin:0px;
 	margin-bottom: 0px;
-	padding:100px;
+	padding:150px;
 	padding-top: 120px;
-	height:600px;
 }
 
 .col-md-8 {
@@ -63,9 +62,9 @@ html, body {
 /*Footer*/
 .footer {
 	height:50px;
-	background-color:black;
+	background-color:#191a1e;
 	margin : 0px;
-	clear:both;
+	padding:0px;
 }
 
 a {
