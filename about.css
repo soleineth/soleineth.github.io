@@ -46,7 +46,8 @@ html, body {
 	margin:0px;
 	margin-bottom: 0px;
 	padding:100px;
-	padding-top: 100px;
+	padding-top: 120px;
+	height:600px;
 }
 
 .col-md-8 {
@@ -64,39 +65,38 @@ html, body {
 	height:50px;
 	background-color:black;
 	margin : 0px;
-
+	clear:both;
 }
+
 a {
 	text-decoration:none;
 	color:white;
 }
-.footer ul{
-	padding-top: 50px;
-	margin:0px;
-	padding-bottom: 0px;
-	margin-bottom: 0px;
+
+.footer ul {
+	padding-top:20px;
 }
+
 .footer li {
 	display:inline;
-	margin:0 ;
+	margin:20px ;
 	text-decoration:none;
 	color:white;
 	font-family: courier;
-	padding-top: 20px;
+	padding-top: 500px;
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 
 }
 
 /*Media Queries*/
-@media (max-width: 900px) {
+@media (max-width: 900px) { 
   .row {
     margin-top: 0;
     margin-left: 50%;
     margin: 0;
   }
   .img-responsive {
-    margin-bottom: 20px;
     margin: 0 auto ;
   }
 }
